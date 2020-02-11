@@ -15,6 +15,6 @@ Funcionalidade: Login
     Exemplos:
       | email           | senha  | sucesso | mensagemErro      |
       | teste@teste.com | 123456 | true    |                   |
-     # | teste@teste.com | 12345  | false   | Erro no login! :( |
-     # |                 | 12345  | false   | Erro no login! :( |
-     # | teste@teste.com |        | false   | Erro no login! :( |
+      | teste@teste.com | 12345  | false   | Erro no login! :( |
+      |                 | 12345  | false   | Erro no login! :( |
+      | teste@teste.com |        | false   | Erro no login! :( |

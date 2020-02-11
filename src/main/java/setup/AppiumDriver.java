@@ -19,7 +19,7 @@ public class AppiumDriver {
         File fs = new File(f, APP);*/
         File fs = new File(APP);
         DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "3523272d193f7ece");
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "ZmudaTeste");
         cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
