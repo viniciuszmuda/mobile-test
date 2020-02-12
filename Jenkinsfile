@@ -3,7 +3,7 @@ node {
         checkout scm
     }
     stage('Execucao') {
-        sh label: '', script: 'gradlew clean test'
+        sh label: '', script: './gradlew clean test'
     }
     stage ('Resultado') {
     cucumber fileIncludePattern: '**/cucumber.json', sortingMethod: 'ALPHABETICAL'
